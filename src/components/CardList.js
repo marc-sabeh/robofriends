@@ -3,9 +3,7 @@ import Card from './Card';
 
 
 const CardList =({robots}) =>{
-  if(true){
-    throw new Error('NOOOOS');
-  }
+
     const cardComponent =robots.map((user, i)=>{
       return <Card key={i} id={robots[i].id} name={robots[i].name} email={robots[i].email}/>
     
